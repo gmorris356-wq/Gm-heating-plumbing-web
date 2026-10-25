@@ -1,0 +1,55 @@
+
+:root{--navy:#071a35;--orange:#f45b2a;--ink:#15263d;--muted:#68778a;--line:#dfe6ed;--bg:#f6f8fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{width:min(960px,92%);margin:auto}.sitehead{background:var(--navy);color:#fff;padding:18px 0}.sitehead a{color:#fff;text-decoration:none;font-weight:900}.brand{display:flex;align-items:center;justify-content:space-between;gap:20px}.back{color:#fff;text-decoration:underline}
+main{padding:54px 0 80px}.paper{background:#fff;border:1px solid var(--line);border-radius:18px;padding:clamp(24px,5vw,52px);box-shadow:0 12px 40px rgba(7,26,53,.06)}
+.kicker{color:var(--orange);font-size:11px;letter-spacing:.14em;font-weight:900}h1{color:var(--navy);font-size:clamp(32px,6vw,50px);line-height:1.1;margin:8px 0 12px}h2{color:var(--navy);margin-top:34px}h3{color:var(--navy);margin-top:25px}p,li{max-width:78ch}a{color:#075e9e}.notice{background:#fff5ef;border:1px solid #ffd3c4;padding:16px;border-radius:12px}.placeholder{background:#fff7cc;border:1px solid #ead47c;padding:14px;border-radius:10px}.small{color:var(--muted);font-size:14px}.footer{padding:24px 0;color:var(--muted);font-size:13px}
+
+/* GT profile/scope page — premium service presentation */
+.profile-hero{background:linear-gradient(135deg,#081b31 0%,#103455 72%,#174765 100%);color:#fff;border-radius:18px;padding:34px 34px 30px;margin:0 0 30px;position:relative;overflow:hidden}
+.profile-hero:after{content:"GT";position:absolute;right:28px;bottom:-42px;font-size:150px;line-height:1;font-weight:950;color:rgba(255,255,255,.045);letter-spacing:-12px}
+.profile-kicker{color:#ff956f;font-size:11px;letter-spacing:.16em;font-weight:900}
+.profile-hero h1{color:#fff;margin:8px 0 12px;max-width:760px}
+.profile-hero p{color:#d9e5ef;max-width:760px}
+.profile-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin:24px 0}
+.profile-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:24px;box-shadow:0 8px 28px rgba(7,26,53,.055)}
+.profile-card h2{margin-top:0}
+.profile-card.accent{border-top:4px solid var(--orange)}
+.profile-card.blue{border-top:4px solid var(--blue)}
+.profile-card.green{border-top:4px solid var(--green)}
+.credential-list{display:grid;gap:12px;margin:16px 0 0;padding:0;list-style:none}
+.credential-list li{padding:14px 15px;background:#f6f8fb;border:1px solid #e4eaf0;border-radius:11px}
+.credential-list strong{display:block;color:var(--navy);margin-bottom:2px}
+.credential-list span{font-size:14px;color:#607286}
+.scope-columns{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.scope-item{padding:17px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.scope-item strong{display:block;color:var(--navy);margin-bottom:5px}
+.scope-item p{margin:0;color:#607286;font-size:14px}
+.future-box{background:#fff8f3;border:1px solid #f2d7c8;border-radius:14px;padding:22px;margin-top:20px}
+.future-box h2{margin-top:0}
+.future-box p{color:#5f7082}
+.profile-note{display:flex;gap:12px;align-items:flex-start;background:#eef5f8;border:1px solid #d7e5eb;border-radius:12px;padding:15px 17px;margin-top:20px}
+.profile-note strong{color:var(--navy)}
+@media(max-width:760px){.profile-grid,.scope-columns{grid-template-columns:1fr}.profile-hero{padding:28px 22px}.profile-hero:after{font-size:100px;right:12px;bottom:-24px}}
+
+/* v8 — equal partners presentation */
+.partners-section{margin:8px 0 30px}
+.partners-heading{max-width:760px;margin-bottom:22px}
+.partners-heading h2{font-size:clamp(30px,4vw,42px);margin:5px 0 10px;letter-spacing:-1.5px}
+.partners-heading p{color:#607286}
+.partners-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.partner-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:24px;box-shadow:0 8px 28px rgba(7,26,53,.055);height:100%}
+.partner-card:first-child{border-top:4px solid var(--orange)}
+.partner-card:last-child{border-top:4px solid var(--blue)}
+.partner-top{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.partner-initials{width:52px;height:52px;border-radius:14px;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:950;letter-spacing:.03em}
+.partner-role{font-size:10px;letter-spacing:.13em;font-weight:900;color:var(--orange)}
+.partner-card h3{font-size:27px;margin:2px 0 0;color:var(--navy)}
+.partner-card .credential-list{margin-top:0}
+.partner-card .credential-list li{background:#f7f9fb}
+@media(max-width:760px){.partners-grid{grid-template-columns:1fr}.partner-card{padding:20px}}
+
+/* v11 — natural partnership wording */
+.partner-role{letter-spacing:.10em}
+
+/* v12 — friendly, authentic GT partnership wording */

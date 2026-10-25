@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef7fb"/><stop offset="1" stop-color="#b8cbd6"/></linearGradient><linearGradient id="tank" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6e818c"/><stop offset=".5" stop-color="#f5f8f9"/><stop offset="1" stop-color="#82949e"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#w)"/><rect y="610" width="1200" height="190" fill="#8da0aa"/>
+<g transform="translate(170 70)"><rect x="0" y="0" width="500" height="560" rx="80" fill="url(#tank)" stroke="#60737e" stroke-width="8"/><ellipse cx="250" cy="70" rx="245" ry="70" fill="#f2f5f6" stroke="#60737e" stroke-width="8"/><ellipse cx="250" cy="490" rx="245" ry="70" fill="#b7c5cc" opacity=".8"/><rect x="185" y="170" width="130" height="95" rx="12" fill="#071528"/><circle cx="250" cy="218" r="28" fill="#0878ff"/><path d="M250 290v100" stroke="#ff7a00" stroke-width="12"/><path d="M230 390h40" stroke="#ff7a00" stroke-width="12" stroke-linecap="round"/></g>
+<g transform="translate(770 145)" fill="none" stroke="#71838e" stroke-width="30" stroke-linecap="round"><path d="M0 0v190h150v210h180"/><path d="M150 190V80h180"/></g>
+<g fill="#0878ff"><circle cx="770" cy="335" r="14"/><circle cx="1100" cy="545" r="14"/></g>
+<text x="730" y="690" fill="#071528" font-family="Arial,sans-serif" font-size="28" font-weight="700">HOT WATER SYSTEMS</text>
+</svg>

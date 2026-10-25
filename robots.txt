@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /employee/
+Disallow: /employee/resources/
+
+# Add a Sitemap: https://YOUR-REAL-DOMAIN/sitemap.xml line after the custom domain is connected.

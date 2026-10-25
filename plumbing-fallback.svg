@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071528"/><stop offset="1" stop-color="#17334f"/></linearGradient><linearGradient id="m" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#dfe8ed"/><stop offset=".5" stop-color="#71828e"/><stop offset="1" stop-color="#edf2f4"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#p)"/><path d="M0 610L500 420 1200 570v230H0z" fill="#0b1e34"/>
+<g fill="none" stroke="url(#m)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"><path d="M150 160v240h360v250"/><path d="M510 400h300v-180h210"/><path d="M810 400v250h230"/></g>
+<g fill="none" stroke="#0878ff" stroke-width="10"><path d="M150 160v240h360"/><path d="M810 400v250"/></g>
+<g fill="none" stroke="#ff7a00" stroke-width="11"><path d="M150 285h65"/><path d="M810 520h80"/></g>
+<g transform="translate(690 120)"><circle cx="115" cy="115" r="86" fill="#f7fafb" stroke="#71828e" stroke-width="8"/><circle cx="115" cy="115" r="45" fill="#071528"/><path d="M115 70v90M70 115h90" stroke="#0878ff" stroke-width="12"/></g>
+<text x="70" y="740" fill="#c8d4df" font-family="Arial,sans-serif" font-size="28" letter-spacing="6">PLUMBING • REPAIRS • PIPEWORK</text>
+</svg>

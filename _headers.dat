@@ -1,0 +1,33 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://images.pexels.com; font-src 'self'; connect-src 'self'; upgrade-insecure-requests
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/privacy.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/cookies.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/terms.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/service-terms.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/accessibility.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/employee/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/staff.html
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-store
